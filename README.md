@@ -8,7 +8,7 @@ Instructions to setup a container for access to jupyter application across LAN.
 2. Change the directory into cloned one
 3. Build the image
 4. Run the container
-5. Access token to configure login password
+5. Access token to configure login password through web browser
 
 ## Commands
 1. `git clone https://github.com/ArmoredStone/small-docker-jupyterlab.git`
@@ -21,5 +21,7 @@ Instructions to setup a container for access to jupyter application across LAN.
    small-docker-jupyterlab
    ```
 5. `docker logs small-docker-jupyterlab`
+
+After these you may access your jupyter application in LAN using web browser with url of http://host-ip:9999/
 
 Feel free to contribute best practices around running applications in Docker containers.
