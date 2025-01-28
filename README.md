@@ -15,7 +15,7 @@ Instructions to setup a container for access to jupyter application across LAN.
 2. `cd small-docker-jupyterlab`
 3. `docker build -t small-docker-jupyterlab .`
 4. ```
-   docker run --name small-docker-jupyterlab \
+   docker run -d --name small-docker-jupyterlab \
    -p 9999:9999 \
    -v jupyter-work:/home/jupyter \
    small-docker-jupyterlab
